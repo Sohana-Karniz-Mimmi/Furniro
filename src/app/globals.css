@@ -46,9 +46,12 @@ body {
   .center {
     @apply flex justify-center items-center;
   }
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
 
   .layout_container {
-    @apply max-w-[1400px] mx-auto px-[10px] sm:px-[20px] 2xl:px-[80px];
+    @apply max-w-[1440px] mx-auto px-[10px] sm:px-[20px] xl:px-0;
   }
 }
 
