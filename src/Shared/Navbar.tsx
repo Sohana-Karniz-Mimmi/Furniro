@@ -39,12 +39,12 @@ export default function Navbar() {
 
   return (
     <header className="layout_container sticky top-0 z-50 w-full bg-white md:py-[30px] py-[20px]">
-      <div className="flex items-center md:gap-[266px] h-[41px] md:pl-[54px] md:pr-[100px] md:justify-start justify-between ">
+      <div className="flex items-center md:gap-[266px] h-[41px] lg:pl-[54px] lg:pr-[100px] md:justify-start justify-between ">
         <div className="flex">
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden mr-[8px] rounded-md"
+            className="lg:hidden mr-[8px] rounded-md"
             aria-label="toggle-menu"
           >
             <Menu className="h-[24px] w-[24px]" />
@@ -68,7 +68,7 @@ export default function Navbar() {
 
         {/* Desktop nav */}
         <div className="flex items-center md:gap-[158px]">
-          <nav className="hidden flex-1 justify-center md:flex">
+          <nav className="hidden flex-1 justify-center lg:flex">
             <ul className="flex gap-[75px]">
               {navLinks.map(({ href, label }) => (
                 <li key={href}>
@@ -102,7 +102,7 @@ export default function Navbar() {
 
       {/* Mobile nav */}
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-0 top-[75px] z-40 bg-white px-[16px]">
+        <div className="lg:hidden fixed inset-0 top-[75px] z-40 bg-white px-[16px]">
           <button
             onClick={() => setIsMenuOpen(false)}
             className="absolute right-[16px] top-[4px] rounded-md p-[8px]  hover:bg-gray-100"
