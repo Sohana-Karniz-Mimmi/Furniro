@@ -16,7 +16,7 @@ export interface ProductBadge {
 }
 
 export interface Product {
-  createdAt?: Date;
+  createdAt?: string;
   _id: string;
   name: string;
   subTitle: string;

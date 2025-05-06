@@ -3,6 +3,7 @@ import { Product } from "@/types/products";
 const products: Product[] = [
   {
     _id: "SLT001",
+    createdAt: "2025-05-01T12:00:00Z",
     name: "Syltherine",
     subTitle: "Stylish cafe chair",
     description: "Ergonomic cafe chair with modern design",
@@ -47,6 +48,7 @@ const products: Product[] = [
   },
   {
     _id: "LEV002",
+    createdAt: "2025-04-19T10:30:00Z",
     name: "Leviosa",
     subTitle: "Stylish cafe chair",
     description: "Minimalist chair for modern spaces",
@@ -79,6 +81,7 @@ const products: Product[] = [
   },
   {
     _id: "LOL003",
+    createdAt: "2025-04-20T15:45:00Z",
     name: "Lolito",
     subTitle: "Luxury big sofa",
     description: "Premium three-seater sofa",
@@ -119,6 +122,7 @@ const products: Product[] = [
   },
   {
     _id: "RES004",
+    createdAt: "2025-04-28T10:30:00Z",
     name: "Respira",
     subTitle: "Outdoor bar table and stool",
     description: "Weather-resistant patio set",
@@ -154,6 +158,7 @@ const products: Product[] = [
   },
   {
     _id: "SLT005",
+    createdAt: "2025-03-30T13:00:00Z",
     name: "Grifo",
     subTitle: "Night lamp",
     description: "Ergonomic cafe chair with modern design",
@@ -198,6 +203,7 @@ const products: Product[] = [
   },
   {
     _id: "LEV006",
+    createdAt: "2025-03-25T17:10:00Z",
     name: "Muggo",
     subTitle: "Small mug",
     description: "Minimalist chair for modern spaces",
@@ -230,6 +236,7 @@ const products: Product[] = [
   },
   {
     _id: "LOL007",
+    createdAt: "2025-03-18T08:15:00Z",
     name: "Pingky",
     subTitle: "Cute bed set",
     description: "Premium three-seater sofa",
@@ -270,6 +277,7 @@ const products: Product[] = [
   },
   {
     _id: "RES008",
+    createdAt: "2025-04-28T10:30:00Z",
     name: "Potty",
     subTitle: "Minimalist flower pot",
     description: "Weather-resistant patio set",
