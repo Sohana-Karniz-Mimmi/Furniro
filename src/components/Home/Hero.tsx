@@ -34,7 +34,7 @@ const Hero = () => {
               </p>
               
               {/* Button */}
-              <Button className="max-w-[222px] py-[12px] md:py-[25px]">
+              <Button className="max-w-[222px] py-[12px] md:py-[25px] uppercase font-bold">
                 BUY Now
               </Button>
             </div>

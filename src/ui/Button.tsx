@@ -20,7 +20,7 @@ export default function Button({
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`font-medium w-full text-center text-[14px] md:text-[16px] ${disabled ? 'bg-gray-400 cursor-not-allowed' : 'bg-primary text-white cursor-pointer'} 
+      className={`w-full text-center text-[14px] md:text-[16px] ${disabled ? 'bg-gray-400 cursor-not-allowed' : 'bg-primary text-white cursor-pointer'} 
       ${className}`}
     >
       {children}
