@@ -39,10 +39,10 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
       {/* Info */}
       <div className="bg-[#F4F5F7] flex-grow pt-[16px] pr-[20px] pb-[30px] pl-[16px]">
-        <h3 className="text-gray-1 text-[24px] font-semibold leading-[120%]">
+        <h3 className="text-gray-1 text-[24px] font-semibold leading-[120%] truncate whitespace-nowrap overflow-hidden">
           {product.name}
         </h3>
-        <p className="text-gray-3 text-[16px] font-medium leading-[150%] my-[8px]">
+        <p className="text-gray-3 text-[16px] font-medium leading-[150%] my-[8px] truncate whitespace-nowrap overflow-hidden">
           {product.subTitle}
         </p>
 

@@ -122,7 +122,7 @@ const products: Product[] = [
   },
   {
     _id: "RES004",
-    createdAt: "2025-04-28T10:30:00Z",
+    createdAt: "2025-05-02T10:30:00Z",
     name: "Respira",
     subTitle: "Outdoor bar table and stool",
     description: "Weather-resistant patio set",
@@ -203,7 +203,7 @@ const products: Product[] = [
   },
   {
     _id: "LEV006",
-    createdAt: "2025-03-25T17:10:00Z",
+    createdAt: "2025-05-02T10:30:00Z",
     name: "Muggo",
     subTitle: "Small mug",
     description: "Minimalist chair for modern spaces",
@@ -277,7 +277,7 @@ const products: Product[] = [
   },
   {
     _id: "RES008",
-    createdAt: "2025-04-28T10:30:00Z",
+    createdAt: "2025-05-02T10:30:00Z",
     name: "Potty",
     subTitle: "Minimalist flower pot",
     description: "Weather-resistant patio set",
