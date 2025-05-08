@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="layout_container border-t border-[rgba(0,0,0,0.17)]">
+    <footer className="layout_container border-t border-[rgba(0,0,0,0.17)] mt-[50px]">
       <div className="max-w-[1240.015px] mx-auto pt-[32px] md:pt-[48px]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-0 gap-[24px]">
           {/* Logo */}

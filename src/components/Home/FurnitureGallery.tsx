@@ -9,7 +9,7 @@ const FurnitureGallery = () => {
         #FurniroFurniture
       </h2>
 
-      <div className="mt-[43px] xl:-mt-[28px] flex flex-col items-center gap-[16px] lg:flex-row">
+      <div className="mt-[40px] xl:-mt-[30px] flex flex-col items-center gap-[16px] lg:flex-row">
         <div className="flex flex-col gap-[16px]">
           <div className="flex items-end gap-[16px]">
             <Image
